@@ -1,13 +1,13 @@
 # MCO Trend Analysis using Perses
 
-> **Scope:** Thanos Ruler recording/alerting rules + Perses Dashboard for 7-day CPU capacity
-> forecasting in RHACM Multi-Cluster Observability.  
-> **Assumptions:** MCO ≥ 2.10, Perses deployed as the default MCO dashboard engine,
-> `acm_rs_vm:namespace:cpu_usage` is a per-namespace aggregation in **CPU cores**
-> (validate this before deploying the alert threshold).
+ **Scope:** Thanos Ruler recording/alerting rules + Perses Dashboard for 7-day CPU capacity
+  forecasting in RHACM Multi-Cluster Observability.  
+ **Assumptions:** MCO ≥ 2.10, Perses deployed as the default MCO dashboard engine,
+ `acm_rs_vm:namespace:cpu_usage` is a per-namespace aggregation in **CPU cores**
+ (validate this before deploying the alert threshold).
  
----
- 
+
+
 ## Pre-flight Checklist
  
 Before applying either manifest, run the following to gather your environment's actual values.
